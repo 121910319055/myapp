@@ -24,7 +24,7 @@ export default function App6() {
         console.log("better luck next time")
     },[wickets]);
     useEffect(()=>{
-        console.log("good ")
+        console.log("good  score")
     },[runs]);
   return (
     <div>

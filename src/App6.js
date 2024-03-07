@@ -21,10 +21,10 @@ export default function App6() {
     const [wickets,setWickets]= useState(0);
     console.log("component loded");
     useEffect(()=>{
-        console.log("better luck next time")
+        console.log(`Wickets:${wickets}.better luck next time`)
     },[wickets]);
     useEffect(()=>{
-        console.log("good  score")
+        console.log(`good  score:${runs}`);
     },[runs]);
   return (
     <div>
